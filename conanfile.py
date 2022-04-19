@@ -31,4 +31,5 @@ class LightgbmConan(ConanFile):
 
     def package_info(self):
         self.cpp_info.libs = ["_lightgbm"]
+        self.cpp_info.includedirs = ["LightGBM/include"]
 
