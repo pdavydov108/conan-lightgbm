@@ -17,6 +17,7 @@ class LightgbmConan(ConanFile):
     def build(self):
         cmake = CMake(self)
         cmake.definitions['BUILD_STATIC_LIB'] = 'ON'
+        cmake.definitions['USE_OPENMP'] = 'False'
         cmake.configure(source_folder="LightGBM")
         cmake.build()
 
