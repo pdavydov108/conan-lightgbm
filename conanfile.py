@@ -3,7 +3,7 @@ from conans import ConanFile, CMake, tools
 
 class LightgbmConan(ConanFile):
     name = "lightgbm"
-    version = "3.2.1"
+    version = "3.3.2"
     license = "https://github.com/microsoft/LightGBM/blob/master/LICENSE"
     author = "Pavel Davydov pdavydov108@gmail.com"
     url = "https://github.com/microsoft/LightGBM"
